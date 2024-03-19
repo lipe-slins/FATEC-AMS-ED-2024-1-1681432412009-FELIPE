@@ -44,17 +44,16 @@ int main() {
     }
 
     printf("Maior elemento: %.2f\n", encontrarMaiorElemento(notas));
-
     printf("Soma dos elementos: %.2f\n", calcularSoma(notas));
 
     imprimirArray(notas);
 
     float valor;
-    printf("Digite o valor pelo qual multiplicar os elementos do array:");
-    scanf("%f", &valor);
-    modificarArray(notas, valor);
-    printf("Array modificado:\n");
-    imprimirArray(notas);
+        printf("Digite o valor pelo qual multiplicar os elementos do array:");
+        scanf("%f", &valor);
+        modificarArray(notas, valor);
+        printf("Array modificado:\n");
+        imprimirArray(notas);
 
     return 0;
 }
